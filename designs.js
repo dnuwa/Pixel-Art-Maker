@@ -1,7 +1,3 @@
-// Select color input
-// Select size input
-
-// When size is submitted by the user, call makeGrid()
 (function() {
   'use strict';
 
@@ -21,6 +17,7 @@
     makeGrid(width, height);
   })
 
+  // Draw grid
   function makeGrid(width, height) {
     $table.innerHTML = '';
     for (let row = 0; row < width; row++) {
